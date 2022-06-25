@@ -1,0 +1,94 @@
+body {
+background: white;
+text-align: center;
+}
+#main {
+	width: 1000px;
+	height: 600px;
+	background: white;
+	margin: 30px auto;
+	border: solid 2px #white;
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	font-family:"Times New Roman";
+	font: 100 pt;
+	color: #white;
+}
+
+ p {
+	font-family: "Times New Roman";
+font-size: 12pt;
+text-align: center;
+text-indent: 48px;
+color: #white;
+}	
+	
+hr {
+	height: 2px;
+	color: #white;
+}
+div {
+	background:pink;
+	width:950px;
+}
+table {
+	width: 400px;
+}
+
+th, caption {
+	text-align: left;
+}
+table, th, td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	padding: 10px;
+}
+tr:nth-child(odd) {
+	background-color: #ddd;
+}
+li {
+	text-align: left;
+}
+img {
+                width: 20%;
+                height: 20%;
+                object-fit: contain;
+            }
+map {
+	height: 250px;
+	width: 50%;
+}
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:50%;
+
+    width:50%;
+
+    position:absolute;
+
+}
+
+
+
